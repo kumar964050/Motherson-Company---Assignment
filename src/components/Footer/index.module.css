@@ -1,0 +1,45 @@
+.footerContainer {
+    position: relative;
+    height: 40vh;
+    background-image: url("/images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons {
+    font-size: 30px;
+    margin: 12px;
+    transition: .2s all;
+}
+
+.footerIcons:hover {
+    scale: .93;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.footerContainer p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+@media (width>=750px) {
+    .footerIcons {
+        font-size: 40px;
+    }
+}

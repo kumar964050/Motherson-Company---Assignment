@@ -1,0 +1,40 @@
+.projectContainer {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsTitle {
+    position: absolute;
+    top: -90px;
+    width: 100px;
+    left: calc(50% - 50px);
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.projectsTitle::before {
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    top: 40px;
+    left: 5px;
+    height: 3px;
+    width: 100px;
+    background-color: #FDC435;
+}
+
+
+@media (width>=750px) {
+    .projectContainer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
