@@ -11,7 +11,6 @@ const Home = () => {
             <br />
             is Madelyn Torff
           </h1>
-
           <p>
             Short text with details about you, what you do or your professional
             career. You can add more information on the about page.
@@ -23,7 +22,7 @@ const Home = () => {
         </div>
       </section>
       <section className={styles.homeImageSection}>
-        <img src="images/image.png" alt="..." />
+        <img src="images/image.png" alt="images" />
       </section>
     </div>
   );
