@@ -18,7 +18,10 @@
 
 }
 
-.projectInfoSection {}
+.projectInfoSection {
+    margin: 10px 0;
+    height: 200px;
+}
 
 .projectInfoSection h1 {
     font-family: Playfair Display;

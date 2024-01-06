@@ -1,3 +1,4 @@
+import { MdMenu } from "react-icons/md";
 import Styles from "./index.module.css";
 
 const Header = () => {
@@ -6,6 +7,10 @@ const Header = () => {
       <a href="#Home" className={Styles.headerTitle}>
         Madelyn Torff
       </a>
+      <input id="menu_btn" className={Styles.menuBtn} type="checkbox" />
+      <label htmlFor="menu_btn" className={Styles.menuIcon}>
+        <MdMenu className="react-icons" />
+      </label>
       <ul className={Styles.navItemsContainer}>
         <li>
           <a href="#Home">About</a>
